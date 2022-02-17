@@ -1,0 +1,186 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.link-list{
+    padding-right: 300px;
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+#header-logo{
+    padding-left: 200px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.navbar{
+    color: #F9FAF8;
+    padding: 20px;
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-section{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px;
+}
+
+.topTitle{
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.top-container{
+    margin-left: 80px;
+    width: 600px;
+    color: #F9FAF8;
+    padding: 70px;
+}
+
+.top-bigText{
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.botone{
+    margin-top: 20px;
+    border-radius: 10px;
+    display: inline-flex;
+    padding: 5px;
+    font-size: 30px;
+    background-color: #3882F6;
+    color: white;
+}
+
+.botone:hover {
+    background-color: white;
+    color: #3882F6;
+}
+
+.ship{
+    margin-right: 240px;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+/* Second section */
+.second-section{
+    text-align: center;
+    padding: 200px;
+}
+
+.infoTitle{
+    margin-bottom: 60px;
+    font-weight: bolder;
+    color: #1f2937;
+    font-size: 36px;
+}
+
+.info-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.mid-card{
+    width: 250px;
+}
+
+.infoImg{
+    border-style: solid;
+    border-color: #3882F6;
+    border-width: 5px;
+    border-radius: 10px;
+    width: 200px;
+
+}
+
+/* Third section */
+
+.testimonial{
+    font-weight: 100;
+}
+
+.testContainer{
+    padding: 40px;
+    width: 1000px;
+}
+
+.testimonial{
+    background-color: #e5e7eb;
+    padding: 60PX;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quoteMan{
+
+    text-align: right;
+}
+
+
+/* fourth section  */
+
+.callAction{
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calltoAction{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 400px;
+}
+
+.c2aButton{
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: inline-flex;
+    padding: 5px;
+    font-size: 15px;
+    background-color: #3882F6;
+    color: white;
+}
+
+.c2aButton:hover {
+    background-color: white;
+    color: #3882F6;
+}
+/* footer */
+
+
+footer{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 40px;
+}
